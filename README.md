@@ -20,7 +20,7 @@ composer install
 
 That's all folks!
 
-## Connection to one database
+## How to connect one database
 `config/database.conf`
 ```txt
 [database]
@@ -35,7 +35,7 @@ password = ""
 $databaseDriver = new \Core\DatabaseDriver();
 ```
 
-## Connection many databases
+## How to connect many databases
 `config/database.conf`
 ```txt
 [databases]
