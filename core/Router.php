@@ -24,7 +24,6 @@ class Router
                 break;
             } else { // 404
                 $matchedRoute = $this->routes['error_404'];
-                break;
             }
         }
 
